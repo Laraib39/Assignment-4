@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request an Appointment</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.jpg" width="85px" height="65px">
+      <h1 class="fh1" id="first">PARAS</h1>
+      <h1 class="sh1" id="second">CLINIC</h1>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+      </ul>
+      <span class="navbar-text">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="refer.html">We Refer to</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="collaboration.html">Collaboration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="appointments.html">Appointments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="advice.html">Advices</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+          </li>
+        </ul>
+      </span>
+    </div>
+  </nav>
+
+  <div class="onlyLine">
+  </div>
+
+  <!-- formLine & formIntro are defined in style2.css file with pharmaIntro & pharmaLine -->
+  <div class="formLine">
+    <h5 class="formIntro">
+      Please fill the form below for requesting your appointment.
+    </h5>
+  </div>
+
+  <div class="OuterMainDiv">
+    <div class="patientInfo">
+
+      <h2 class="tab1" id="pDetails"><b>Patient Details</b></h2><br>
+      <form action="">
+        <label class="tab1" for="first name">First Name</label>
+        <input class="indent" type="text" name="first name" required id="first name" size="19" maxlength="30">
+        <h2></h2>
+
+        <label class="tab1" for="last name">Last Name</label>
+        <input class="indent" type="text" name="last name" required id="last name" size="19" maxlength="30">
+        <h2></h2>
+
+        <label class="tab1" for="date of birth">Date of Birth</label>
+        <select name="date" required id="date">
+          <option value="Day">Day:</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>
+        <select name="date" required id="month">
+          <option value="month">Month:</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+        <select name="date" required id="year">
+          <option value="Year">Year:</option>
+          <option value="1990">1990</option>
+          <option value="1991">1991</option>
+          <option value="1992">1992</option>
+          <option value="1993">1993</option>
+          <option value="1994">1994</option>
+          <option value="1995">1995</option>
+          <option value="1996">1996</option>
+          <option value="1997">1997</option>
+          <option value="1998">1998</option>
+          <option value="1999">1999</option>
+          <option value="2000">2000</option>
+        </select>
+        <h2></h2>
+
+        <label class="tab1" for="email">Email Address</label>
+        <input class="indent" required type="email" size="19" maxlength="30">
+        <h2></h2>
+
+        <label class="tab1" for="mobile number">Mobile Number</label>
+        <input class="indent" type="number" size="19" maxlength="10">
+        <label for="mobile number"></label>
+        <h2></h2>
+
+        <label class="tab1" for="phone number">Phone Number</label>
+        <input class="indent" type="number" size="19" maxlength="10">
+        <label for="phone number"></label>
+        <h2></h2>
+
+        <label class="tab1" for="country">Country</label>
+        <input class="indent" type="text" name="country" required id="country" size="19" maxlength="20">
+        <h2> </h2>
+
+        <p>
+          <label class="tab1" for="gender">Gender</label>
+          Male<input required type="radio" name="gender" value="Male">
+          Female<input required type="radio" name="gender" value="Female">
+        </p>
+      </form>
+    </div>
+
+    <div class="appointmentInfo appoint">
+      <form action="">
+        <h2 class="tab1" id="aDetails"><b>Appointment Details</b></h2><br>
+
+        <label class="tab1" for="complaint">Patient's Complaint</label><br>
+        <textarea class="tab2" name="complaint" required id="complaint" cols="30" rows="5"></textarea>
+        <h2></h2>
+
+        <label class="tab1" for="record">Previous record of patient</label><br>
+        <textarea class="tab2" name="record" required id="record" cols="30" rows="5"></textarea>
+        <h2></h2>
+
+        <div class="buttonClass">
+          <button type="button" class="btn btn-danger reset"><a href="appointments.html"><b>Reset</b>
+          </a></button>
+          <button type="button" class="btn btn-danger request"><a href="submitted.html"><b>Request an Appointment</b>
+          </a></button>
+          <!-- <button class="reset"><a href="appointments.html"></a></button>
+          <button class="request"></a></button> -->
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="addressDiv">
+    <div id="address">
+      <h5><b>
+          ____ Address and Contact
+          _______________________________________________________________________________________________________________________________________________________
+        </b></h5>
+      <p>Tando Ghafoor Shah Jahanian</p>
+      <p>Near London Town, Qasimabad Hyderabad</p>
+      <p><i class="fa fa-phone" aria-hidden="true"></i>0312-3152449</p>
+      <p><i class="fa fa-whatsapp" aria-hidden="true"></i>0331-3636455</p>
+        <p><i class="fa fa-envelope-o" aria-hidden="true"></i>draijazshaikhsb786@gmail.com</p>
+        <p><i class="fa fa-facebook" aria-hidden="true"></i>facebook.com/Aijaz Shaikh</p>
+      <a href=""> <img src="images/back to top.png" class="goTop" width="40px" height="40px"> </a>
+    </div>
+  </div>
+
+  <div class="footer">
+    Copyright &copy; 2020 Paras Clinic
+  </div>
+</body>
+
+</html>

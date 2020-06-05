@@ -1,0 +1,849 @@
+/* STYLING FOR index.html */
+@media screen and (max-width: 600px){
+    .logo > img{
+        width: 100%;
+        height: 100%;
+        margin-right: 210px;
+    }
+    .MessageDiv>h2{
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+    .outerDiv1>div{
+        width: 100%;
+    }
+    .outerDiv2>div{
+        width: 100%;
+    }
+    .main2{
+        width: 100%;
+        height: 570px;
+    }
+     .main1{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    } 
+    .paragraph{
+        margin: 0 auto !important;
+        display: block;
+        width: 90%;
+        padding: 10px 15px 10px 15px !important;
+        box-shadow: 3px 3px 25px grey;
+    } 
+    #address>h5{
+        width: 100%;   
+    }
+    #address>a{
+        justify-content: right;
+        margin-left: 40px;
+        margin-right: 1000px !important;
+        margin-top: auto;
+        padding-bottom: 3px;
+    }
+}
+.logo{
+    background-color: #e60000;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo > p{
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: large;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.fa-user-circle-o{
+    width: 25px;
+    height: 25px;
+    margin-top: 12px;
+}
+.nav-item:hover{
+    background-color:  #e60000;
+    border-radius: 20px;
+}
+.nav-link{
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+}
+.navbar-brand, .fh1, .sh1{
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fh1,.sh1{
+    margin-left: 15px;
+    margin-top: 10px;
+    text-shadow:2px 2px 2px grey;
+}
+.carousel-caption, .carousel-caption>h4{
+    font-weight: bold;
+}
+.black{
+    color: rgb(27, 27, 27);
+}
+.white{
+    color: white;
+}
+#first{
+    color: #e60000;
+}
+#second{
+     color: rgb(0, 128, 255);
+}
+.head{
+    text-align: center;
+}
+.heading1, .phyHeading{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 40px;
+    margin-bottom: 25px;
+    padding: 40px;
+}
+.heading1>h1 {
+    font-weight: bold;
+    display: inline-block; 
+    text-shadow: 2px 2px 2px grey;
+}
+.fhead{
+    color:  #e60000;
+    margin-right: 10px;
+}
+.shead{
+    color:  rgb(3, 76, 185);
+}
+.main1{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+}
+.paragraph{
+    text-align: justify;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin-left: 170px;
+    margin-right: 170px;
+    font-family: Arial;
+    font-size: 20px;
+}
+.main2{
+    background-color: whitesmoke;
+    /* height: 200px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Div1,.Div2,.Div3{
+    width: 340px;
+    height: 130px;
+    font-size: x-large;
+    text-align: center;
+    background-color: white;
+    box-shadow: 5px 5px 10px grey;
+    margin: 30px 0px 25px 0px;
+    padding: 50px 10px 15px 10px;
+}
+.MessageDiv{
+    background-color: #e60000;
+    color: white;
+    height: 300px;
+    align-items: center;
+}
+.phMessage{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px 2px grey;
+    padding: 90px 20px 30px 20px;
+}
+.QouteBy{
+    text-align: right;
+    margin-right: 130px;
+}
+.outerDiv1,.outerDiv2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+.outerDiv3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: whitesmoke;
+    align-items: center;
+}
+.innerDiv1,.innerDiv2,.innerDiv3,.innerDiv4,.innerDiv5,.innerDiv6, .innerDiv7, .innerDiv8{
+    width: 460px;
+    height: 220px;
+    font-size: large;
+    text-align: center;
+    background-color: white;
+    box-shadow: 5px 5px 10px grey;
+    margin: 0px 30px 0px 30px;
+    padding: 50px 5px 15px 5px;
+}
+.saidBy{
+    text-align: center;
+}
+.innerDiv1,.innerDiv2,.innerDiv3{
+    margin-top: 30px;
+}
+.innerDiv4,.innerDiv5,.innerDiv6{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.innerDiv7, .innerDiv8{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.addressDiv{    
+    margin-top: 180px;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around;  */
+    height: 350px;
+}
+#address{
+    padding: 20px 20px 20px 60px;
+    /* padding-left: 40px; */
+    color: whitesmoke;
+} 
+#address>h5{
+    margin-bottom: 20px;
+}
+.fa-phone, .fa-whatsapp, .fa-envelope-o, .fa-facebook{
+    margin-right: 15px;
+}
+.goTop{
+    justify-content: right;
+    margin-left: 1400px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-top: auto;
+    padding-bottom: 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footer{
+    background-color:  #e60000;
+    width: 100%;
+    padding: 15px;
+    color: whitesmoke;
+}
+/* STYLING OF index.html ends */
+/* STYLING OF about.html starts */
+@media screen and (max-width: 600px){
+    /* .paraDiv{
+        height: 2000px;
+    } */
+    #paragraph1, .phyIntro, .staffIntro{
+        width: 100%;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        display: inline-block; 
+    }
+    .main3, .fee1, .fee2{
+        width: 100% !important;
+    }
+    .fee1, .fee2{
+        height: 300px;
+    }
+    .fee1>h2, .fee2>h2{
+        font-size: x-large;
+    }
+    .phyHeading, .pHeading{
+        margin-top: 720px;
+        margin-bottom: 25px;  
+    }
+    #physicianDiv{
+        padding-top: 30px;
+    }
+    .card{
+        margin: 0 auto !important;
+    }
+    .phyIntro{
+        height: 640px !important;
+        padding-bottom: 25px !important;
+    }
+    .staffIntro{
+        height: 740px !important;
+        padding-bottom: 25px !important;
+    }
+    .feeHeading{
+        margin-top: 800px;
+    }
+    .imageHeading{
+        margin-top: 50px;
+    }
+    #ImageDiv{
+        width: 100%;
+        display: flex;
+        flex-direction: column !important;
+    }
+    .img1, .img2, .img3, .img4, .img5{
+        width: 350px !important;
+        margin: 0px 0px 30px 0px !important;
+    }
+    .editImg{
+        width: 350px !important;
+    }
+}
+.onlyLine{
+    background-color:  #e60000;
+    height: 7px;
+}
+.paraDiv{
+    background-color: whitesmoke;
+    height: 550px;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;   
+}
+#paragraph1{
+    text-align: justify;
+    padding: 30px 100px 30px 100px;
+   
+    width: 1350px;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;  
+    font-size: 20px;
+    box-shadow: 5px 5px 10px grey;
+    background-color: white;
+}
+.space1{
+    display: inline-block;
+}
+#physicianDiv{
+    background-color: whitesmoke;
+    height: 535px;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+.phyIntro, .staffIntro{
+    text-align: justify;
+    padding: 20px 100px 30px 100px;
+    width: 1000px;
+    display: inline-block;
+    height: 350px;
+    margin-top: 85px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;  
+    font-size: 20px;
+    box-shadow: 5px 5px 10px grey;
+    background-color: white;
+}
+.staffIntro{
+    height: 390px;
+}
+.card{ 
+    width: 150px;
+    height: 450px; 
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 85px;
+    margin-right: 30px;  
+    box-shadow: 5px 5px 10px grey;
+}
+.card-body{
+    text-align: center;
+}
+.tag{ 
+    color: #e60000;
+    text-shadow: 1px 1px 2px grey;
+}
+.main3{
+    background-color: whitesmoke;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.fee1,.fee2{
+    width: 650px;
+    height: 80px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    background-color: white;
+    box-shadow: 5px 5px 10px grey;   
+}
+.fee1>h2, .fee2>h2{
+    padding-top: 15px;
+}
+.fa-male, .fa-child{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+#ImageDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px !important;
+}
+.img1, .img2, .img3, .img4, .img5{
+    /* border: 4px solid #e60000; */
+    margin: auto 0px auto 15px;
+    box-shadow: 3px 3px 10px grey; 
+    
+}
+.editImg{
+    width: 295px;
+    height: 230px;
+}
+/* STYLING FOR about.html ends */
+/* STYLING FOR refer.html starts */
+@media screen and (max-width: 600px){
+    .outerMainDiv2{
+        width: 100%;
+        justify-content: center;
+    }
+    .PhyDiv1, .PhyDiv2, .PhyDiv3, .PhyDiv4, .PhyDiv5, .PhyDiv6, .PhyDiv7{
+        width: 90% !important;
+        margin: 0 auto !important;
+        display: inline-block;
+        font-size: medium !important;
+        margin-top: 20px !important;
+    }
+}
+.begin{
+    text-align: center;
+    font-size: x-large;
+    margin: 30px 20px 30px 20px;
+}
+.outerMainDiv2{
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+.PhyDiv2, .PhyDiv4, .PhyDiv6{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 800px;
+    background-color: white;
+    box-shadow: 5px 5px 20px grey;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: right;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 40px;
+    border: 4px solid rgb(0, 128, 255);
+}
+.PhyDiv1>h3, .PhyDiv2>h3, .PhyDiv3>h3, .PhyDiv4>h3, .PhyDiv5>h3, .PhyDiv6>h3, .PhyDiv7>h3{
+    text-shadow: 2px 2px 2px grey;
+    color: #e60000;
+}
+.PhyDiv2,.PhyDiv3,.PhyDiv4,.PhyDiv5,.PhyDiv6,.PhyDiv7{
+    margin-top: 30px;
+}
+.PhyDiv1, .PhyDiv3, .PhyDiv5, .PhyDiv7{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 800px;
+    background-color: white;
+    box-shadow: 5px 5px 20px grey;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 50px;
+    margin-top: 40px;
+    justify-content: start;
+    align-items: center;
+    border: 4px solid #e60000;
+}
+/* STYLING FOR refer.html ends */
+/* STYLING FOR collaboration.html starts */
+@media screen and (max-width: 600px){
+    .highQ, .genix, .hProducts{
+        width: 400px !important;
+    }
+    .outerMain{
+        width: 100%;
+        justify-content: center;
+        align-items: center; 
+        height: 2430px !important;
+    }
+    .gproducts{
+        margin-bottom: 150px !important;
+    }
+    .hProducts>div>img{
+        width: 140px !important;
+        height: 60px !important;
+    }
+}
+.pharmaLine, .formLine, .adviceLine{
+    /* border: 2px solid black; */
+    /* text-align: center; */
+    margin: 60px 40px 60px 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+.pharmaIntro, .formIntro, .adviceIntro{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.outerMain{
+    background-color: whitesmoke;
+    height: 2200px;
+    padding-top: 5px;
+    margin-bottom: 20px !important;
+} 
+.highQ, .genix, .hProducts{
+    /* border: 2px solid #e60000; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 800px;
+    background-color: white;
+    box-shadow: 5px 5px 20px grey;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.fDiv, .sDiv{
+    /* border: 2px solid blue; */
+    display: inline-block;
+    /* height: max-content; */
+    align-items: center;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px 15px 20px 15px;
+}
+.sDiv>h4, .sDiv>h5, .sDiv>p{
+    text-align: center;  
+}
+.hProducts{
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+/* STYLING FOR collaboration.html ends */
+/* STYLING FOR appointments.html starts */
+@media screen and (max-width: 600px){
+    .OuterMainDiv{
+        width: 100%;
+        justify-content: center !important;
+        align-items: center !important; 
+        /* height: 2430px !important; */
+    }
+    .patientInfo, .appointmentInfo{
+        width: 400px !important;
+        margin: 0 auto !important;
+        display: inline-block;
+        /* margin-left: 15px !important; */
+    }
+    .indent{
+        text-indent: 8% !important; 
+    }
+     label{
+        width: 140px !important;
+        font-size: medium !important;
+    } 
+    .tab2{
+        margin-left: 30px;
+        margin-right: 30px;
+        width: 340px !important;
+    }
+    .appointmentInfo{
+        margin-top: 40px !important;
+        height: 600px !important;
+    }
+
+}
+.OuterMainDiv{
+    background-color: whitesmoke;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.tab1{
+    margin-left: 20px;
+    /* border-radius: 4px; */
+    padding: 10px 0px 10px 10px;
+}
+.indent{
+    text-indent: 3%; 
+    border-radius: 4px;
+}
+label{
+    width: 240px;
+    display: inline-block;
+    font-size: large;
+    /* font-weight: bold; */
+}
+.patientInfo, .appointmentInfo{
+    margin-left: 20px;
+    width: 800px;
+    box-shadow: 5px 5px 10px grey;
+    margin: 0 auto;
+    display: inline-block; 
+    background-color: white;
+}
+.appointmentInfo{
+    margin-top: 40px;
+    height: 550px;
+    margin-bottom: 40px;
+}
+.tab2{
+    margin-left: 30px;
+    width: 600px;
+    border-radius: 4px;
+    /* padding: 3px 0px 0px 3px; */
+}
+select:hover, .indent:hover, .tab2:hover{
+    border: 1px solid #e60000 !important;
+}
+#aDetails,#pDetails{
+    text-shadow: 2px 2px 2px grey;
+    color: #e60000;
+}
+.reset, .request{
+    background-color: #e60000;   
+}
+.reset>a, .request>a{
+    color: white;
+}
+.btn-danger{
+    margin-left: 25px;
+}
+.buttonClass{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+/* STYLING FOR appointments.html ends */
+/* STYLING FOR advice.html starts */
+@media screen and (max-width:600px){
+    .outerMainDiv1{
+        width: 100%;
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+    .forAll, .links{
+        width: 95%;
+        margin: 0 auto !important;
+        display: inline-block;
+    }
+    .forAll{
+        border: hidden !important;
+    }
+    .forAll>img{
+        width: 100%;
+    }
+    .links{
+        margin-top: 35px !important;
+    }
+    .AlertDiv{
+        width: 100%;
+        height: 500px !important;
+        margin-bottom: 90px !important;
+        margin-top: 60px !important;
+        padding: 7px;
+    }
+}
+#AdvicesHeading{
+    text-align: center;
+    text-shadow: 2px 2px 2px grey;
+    color: #e60000;
+    margin-top: 30px;
+}
+.outerMainDiv1{
+    display: flex;
+    flex-direction: row;
+    align-items: center !important;
+    justify-content: center;
+}
+.forAll, .links{
+    margin: 20px 50px 20px 50px;
+    box-shadow: 5px 5px 15px grey;
+}
+.forAll{
+    border: 4px solid #e60000;
+}
+.links{
+    padding: 10px 0px 10px 20px;
+}
+.insideLinks>ul{
+    font-size: large;
+}
+li>a{
+    color: #e60000;
+}
+.adviceIntro{
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: 1px 1px 1px grey;
+}
+.AlertDiv{
+    background-color: #e60000;
+    color: white;
+    height: 260px;
+    align-items: center;
+}
+.alert{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px 2px grey;
+    padding: 80px 20px 10px 20px;
+}
+/* STYLING FOR advice.html ends */
+/* STYLING FOR contact.html starts */
+@media screen and (max-width: 600px){
+    .main4{
+        width: 100%;
+        height: 185px !important;
+    }
+    .main4>div{
+        width: 100%;
+        height: 120px;
+        margin-bottom: 20px;
+    }
+    .main5{
+        width: 100%;
+        height: 280px !important;
+    }
+    .main5>div{
+        width: 100%;
+        height: 210px !important;
+        margin-bottom: 20px;
+    }
+    .main6{
+        width: 100%;
+        height: 140px;
+    }
+}
+.main4,.main5{
+    background-color: whitesmoke;
+    height: 185px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main5{
+    height: 200px;
+}
+.main6{
+    background-color: whitesmoke;
+    height: 140px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.visitUs, .visitingTime{
+    border: 2px solid  #e60000;
+    box-shadow: 5px 5px 10px grey;
+    width: 800px;
+    height: 120px; 
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    background-color: white;
+}
+.visitUs>h4, .visitingTime>h4{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    display: block;
+}
+.visitingTime{
+    height: 140px;
+}
+.visitingTime>h4{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.fa-clock-o, .fa-map-marker{
+    margin-right: 20px;
+}
+.connectUs{
+    border: 2px solid  #e60000;
+    box-shadow: 5px 5px 10px grey;
+    width: 800px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+    margin: 0 auto;
+    background-color: white;
+}
+/* STYLING FOR contact.html ends */
+/* STYLING FOR pictures.html starts */
+.outerMainDiv3{
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    /* display: flex;
+    flex-direction: column; */
+    padding-top: 20px;
+}
+#div1>img, #div2>img, #div3>img, #div4>img, #div5>img, #div6>img, #div7>img, #div8>img{
+    width: 550px;
+    height: 710px;
+}
+.outerMainDiv3>div{
+    border: 4px solid red !important;
+    margin: 0 auto;
+    display: block;
+    width: 550px;
+    margin-top: 40px;
+}
+/* STYLING FOR pictures.html ends */
+/* STYLING FOR submitted.html starts */
+.SubbMain{
+    margin-top: 90px !important;
+    flex-wrap: wrap;
+}
+.SubbMain>h1, .SubbMain>h2{
+    text-align: center;
+}
+.center2{
+    margin: 0 auto;
+    display: block;
+}
+/* STYLING FOR submitted.html ends */
